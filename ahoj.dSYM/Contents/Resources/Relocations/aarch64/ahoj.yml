@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/giangtruongdo/Documents/GitHub/semin---jazky-C/ahoj'
+relocations:     []
+...
