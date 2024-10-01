@@ -8,13 +8,15 @@ int main()
 //-----------------------------------------
     //2. úkol
     int a = 2, b = 2, c = 0, d = 1, e = 4;
-    a++ / b-- * d++; //výsledek bude: 
-    printf("hodnota a je %d, hodnota b je %d , hodnota d je %d", a, b, d);
+    a++ / b-- * d++; //výsledek bude: a =
+    printf("hodnota a je %d, hodnota b je %d , hodnota d je %d \n", a, b, d );
 
     a = 2; b = 2; c = 0; d = 1; e = 4;
     b-- * c++ + e; //výsledek bude: 
-    printf("hodnota b je %d, hodnota c je %d , hodnota e je %d", b, c, e);
+    printf("hodnota b je %d, hodnota c je %d , hodnota e je %d \n", b, c, e);
 
-    printf("výsledek je %d", priklad);
+    a = 2; b = 2; c = 0; d = 1; e = 4;
+    -b + c--; //výsledek bude:
+    printf("výsledek je %f \n", priklad);
     return 0;
 }
